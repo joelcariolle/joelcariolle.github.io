@@ -1,0 +1,300 @@
+%% ─────────────────────────────────────────────────────────────────────────
+%%  Joël Cariolle — Academic CV
+%%  Compile with:  pdflatex cv_cariolle.tex  (twice for correct hyperlinks)
+%% ─────────────────────────────────────────────────────────────────────────
+\documentclass[11pt, a4paper]{article}
+
+% ── PACKAGES ──────────────────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=2.2cm, top=2cm, bottom=2.2cm]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{mdwlist}
+\usepackage[none]{hyphenat}
+
+% ── COLOURS ──────────────────────────────────────────────────────────────
+\definecolor{navy}{HTML}{1c3564}
+\definecolor{gold}{HTML}{b8883a}
+\definecolor{lightgray}{HTML}{666666}
+\definecolor{midgray}{HTML}{444444}
+\definecolor{linkblue}{HTML}{1a4a8a}
+
+% ── HYPERREF SETUP ────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks = true,
+  urlcolor   = linkblue,
+  linkcolor  = linkblue,
+  citecolor  = linkblue,
+  pdfauthor  = {Jo\"{e}l Cariolle},
+  pdftitle   = {Curriculum Vitae -- Jo\"{e}l Cariolle},
+  pdfsubject = {Academic CV}
+}
+
+% ── PAGE STYLE ────────────────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small\color{lightgray} Jo\"{e}l Cariolle --- Curriculum Vit\ae}
+\fancyfoot[R]{\small\color{lightgray} \thepage\ / \pageref{LastPage}}
+
+% ── SECTION FORMATTING ───────────────────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{navy}}
+  {}{0pt}
+  {}
+  [\vspace{-4pt}\color{gold}\rule{\linewidth}{0.8pt}\vspace{2pt}]
+
+\titlespacing{\section}{0pt}{18pt}{8pt}
+
+% ── CUSTOM ENVIRONMENTS ───────────────────────────────────────────────────
+% Two-column entry: date | content  (tabularx so right col fills \textwidth)
+\newenvironment{cvtable}{%
+  \tabularx{\textwidth}{@{}p{2.8cm}@{\hspace{0.4cm}}>{\RaggedRight\arraybackslash}X@{}}%
+}{\endtabularx}
+
+% Compact list
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=3pt}
+
+% ── HELPER COMMANDS ───────────────────────────────────────────────────────
+\newcommand{\cvitem}[2]{%
+  \begin{cvtable}
+    \textcolor{gold}{\small #1} & #2 \\
+  \end{cvtable}\vspace{3pt}
+}
+
+\newcommand{\cvpub}[1]{\noindent\hangindent=0.5em\hangafter=1 #1\par\vspace{5pt}}
+
+% ── DOCUMENT ─────────────────────────────────────────────────────────────
+\begin{document}
+\thispagestyle{fancy}
+
+% ── HEADER ────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{navy} Jo\"{e}l Cariolle}\\[6pt]
+  {\large\itshape\color{midgray} Development Economist --- Digitalisation \& Development}\\[6pt]
+  \textcolor{gold}{\rule{0.5\linewidth}{0.6pt}}\\[6pt]
+  \small
+  \textcolor{lightgray}{Ph.D.\ in Economics \quad|\quad Habilitation \`{a} Diriger la Recherche (HDR, 2025)}\\[4pt]
+  Research Officer, \textbf{FERDI} \quad|\quad Affiliate Researcher, \textbf{CERDI}--University Clermont-Auvergne\\[3pt]
+  \href{mailto:joel.cariolle@ferdi.fr}{joel.cariolle@ferdi.fr}
+  \quad|\quad
+  \href{https://sites.google.com/view/joelcariolle}{sites.google.com/view/joelcariolle}
+  \quad|\quad
+  \href{https://twitter.com/jcariolle}{@jcariolle}
+\end{center}
+
+\vspace{6pt}
+
+% ── RESEARCH FIELDS ───────────────────────────────────────────────────────
+\section{Research Fields}
+
+\noindent\textbf{Primary:} Development Economics, Digital Economics, International Economics.\\
+\textbf{Topics:} Digital infrastructure, submarine cables, ICT and firm performance, political economy of corruption, economic vulnerability, regional integration in Sub-Saharan Africa.
+
+% ── PROFESSIONAL BACKGROUND ───────────────────────────────────────────────
+\section{Professional Background}
+
+\cvitem{2015--present}{%
+  \textbf{Research Officer, FERDI}, Clermont-Ferrand, France.\newline
+  \hspace*{1em}\textit{Coordinator,} Chair Digitalisation and Public Policies.\newline
+  \hspace*{1em}\textit{Head,} Program Energy Transition and Digital Transformations.}
+
+\cvitem{2023--present}{%
+  \textbf{Affiliate Researcher, CERDI} -- University Clermont-Auvergne, France.}
+
+\cvitem{2021--2022}{%
+  Short-Term Consultant, \textbf{World Bank \& IFC}.}
+
+\cvitem{2009--2010}{%
+  Anti-corruption expert and trainer, \textbf{European Commission}.}
+
+\cvitem{2008--2013}{%
+  Research Assistant, FERDI.}
+
+\medskip
+\noindent\textbf{Teaching}\quad (2014--2024): Microeconomics, economic policy, digital economics --- Paris-Dauphine University; Clermont Graduate School of Management; CERDI-UCA.
+
+% ── EDUCATION ─────────────────────────────────────────────────────────────
+\section{Education}
+
+\cvitem{2025}{\textbf{Habilitation \`{a} Diriger la Recherche (HDR)}.}
+
+\cvitem{2014}{French Qualification for Assistant Professor tenure (\textit{Qualification MCF}), renewed 2019.}
+
+\cvitem{2013}{\textbf{Ph.D.\ in Economics}, CERDI -- University Clermont-Auvergne, Clermont-Ferrand, France.}
+
+\cvitem{2007}{Master 2 in Development Economics (Research track), CERDI -- UCA.\newline
+  Master 2 in Project Management in Developing Countries (Professional track), CERDI -- UCA.}
+
+\cvitem{2006}{Master 1 in Comparative European and Latin-American Studies, University Sorbonne-Nouvelle (IHEAL, Paris III).}
+
+\cvitem{2005}{Master 1 in International Economics, University Panth\'{e}on-Sorbonne (Paris I).}
+
+% ── PEER-REVIEWED PUBLICATIONS ────────────────────────────────────────────
+\section{Peer-Reviewed Publications}
+
+\cvpub{\textbf{Imbruno, M., Cariolle, J., \& de Melo, J.} (2025). ``Digital connectivity and firm participation in foreign markets: An exporter-based bilateral analysis,'' \textit{Journal of Development Economics}, 177, 103551.}
+
+\cvpub{\textbf{Cariolle, J. \& Leon, F.} (2024). ``How internet helped firms cope with COVID-19,'' \textit{Revue \'{E}conomique}, 75(4), 793--834.}
+
+\cvpub{\textbf{Cariolle, J., Elkhateeb, Y., \& Maurel, M.} (2024). ``Misinformation technology: Internet use and political misperceptions in Africa,'' \textit{Journal of Comparative Economics}, 52(2), 400--433.}
+
+\cvpub{\textbf{Cariolle, J. \& Da Piedade, C.} (2023). ``Digital Connectedness and Exports Upgrading: Is Sub-Saharan Africa Catching Up?'' \textit{The World Economy}, 46(11), 3325--3344.}
+
+\cvpub{\textbf{Cariolle, J. \& Le Goff, M.} (2023). ``Spatial internet spillovers in manufacturing,'' \textit{Journal of Development Studies}, 59(8), 1163--1186.}
+
+\cvpub{\textbf{Cariolle, J. \& Sekeris, P.G.} (2022). ``How export shocks corrupt: Theory and evidence,'' \textit{Journal of Government and Economics}, 8, 100057.}
+
+\cvpub{\textbf{Cariolle, J.} (2021). ``International Connectivity and the Digital Divide in Sub-Saharan Africa,'' \textit{Information Economics \& Policy}, 55, 100901.}
+
+\cvpub{\textbf{Brezis, E.S. \& Cariolle, J.} (2019). ``The Revolving Door, State Connections and Inequality of Influence in the Financial Sector,'' \textit{Journal of Institutional Economics}, 15(4), 595--614. \textit{[Elinor Ostr\"{o}m Prize for best full-length article, 2019.]}}
+
+\cvpub{\textbf{Cariolle, J., Chalendard, C., Geourjon, A.M., \& Laporte, B.} (2019). ``Going beyond analysis of internal data to support customs modernization: A case study in Gabon,'' \textit{The World Economy}, 42(6), 1850--1872.}
+
+\cvpub{\textbf{Cariolle, J., De Ubeda, A-A., \& Geourjon, A-M.} (2019). ``L'engagement dans l'int\'{e}gration commerciale donne-t-il des r\'{e}sultats tangibles? Principes et application \`{a} l'UEMOA d'un indice d'engagement des \'{E}tats,'' \textit{Revue d'\'{E}conomie du D\'{e}veloppement}, 27(1), 73--112.}
+
+\cvpub{\textbf{Cariolle, J., Goujon, M., \& Guillaumont, P.} (2016). ``Has structural economic vulnerability decreased in LDCs? Lessons drawn from retrospective indices,'' \textit{Journal of Development Studies}, 52(5), 591--606.}
+
+\cvpub{\textbf{Cariolle, J. \& Goujon, M.} (2015). ``Measuring Macroeconomic Instability: A critical Survey Illustrated with Export Series,'' \textit{Journal of Economic Surveys}, 29(1), 1--26.}
+\newpage
+% ── BOOK ──────────────────────────────────────────────────────────────────
+\section{Book}
+
+\cvpub{\textbf{Aker, J. \& Cariolle, J.} (2023). \textit{Mobile Phones and Development in Africa: Does the Evidence Meet the Hype?} Palgrave Studies in Agricultural Economics and Food Policy Series, Palgrave MacMillan.}
+
+% ── BOOK CHAPTERS ─────────────────────────────────────────────────────────
+\section{Book Chapters}
+
+\cvpub{\textbf{Cariolle, J. \& Da Piedade, C.} (Forthcoming). ``Submarine Cable Infrastructure and Trade in Africa,'' in Ferracane, M. \& Nordas, H. (eds.), \textit{A Digital Trade Research Agenda on Africa}, EUI Press.}
+
+\cvpub{\textbf{Brezis, E.S. \& Cariolle, J.} (2017). ``Financial Sector Regulation and the Revolving Door in US Commercial Banks,'' in Schofield, N. \& Caballero, G. (eds.), \textit{State, Institutions and Democracy: Contributions of Political Economy}, Springer, pp.~53--76.}
+
+\cvpub{\textbf{Cariolle, J.} (2016). ``Corruption in turbulent times: A response to export booms and busts,'' in Sarris, A. (ed.), \textit{Commodity market instability and asymmetries in developing countries}, FERDI, 92~p.}
+
+% ── WORKING PAPERS ────────────────────────────────────────────────────────
+\section{Working Papers}
+
+\cvpub{\textbf{Cariolle, J.} (2026). ``Digital Disasters: The Growth Costs of Submarine Cable Failures.'' Mimeo, available on request.}
+
+\cvpub{\textbf{Cariolle, J.} (2026). ``Digital transformations in developing economies: From the first-mile infrastructure to the end-user finger tips.'' WIPO Economic Research Working Paper, World Intellectual Property Organization.}
+
+\cvpub{\textbf{Cariolle, J., Houngbonon, G.V., Silue, T., \& Strusani, D.} (2024). ``Submarine Cables, Internet Access Price and the Role of Competition and Regulation.'' Policy Research Working Paper, World Bank Group; Ferdi WP P357. \textit{Submitted.}}
+
+\cvpub{\textbf{Cariolle, J. \& Carroll~II, A.D.} (2024, rev.\ 2026). ``From phone access to food markets: Is mobile connectivity transforming West-African livelihoods?'' Ferdi Working Paper P341. \textit{Submitted.}}
+
+\cvpub{\textbf{Cariolle, J., Le Goff, M., \& Santoni, O.} (2019). ``Broadband infrastructure deployment, digital vulnerability, and local firm performance in developing and transition countries.'' Banque de France WP~\#709.}
+
+\cvpub{\textbf{Cariolle, J.} (2018). ``Telecommunication Submarine-Cable Deployment and the Digital Divide in Sub-Saharan Africa.'' CESifo Working Paper No.~7415.}
+
+\cvpub{\textbf{Cariolle, J.} (2013). ``A Retrospective Economic Vulnerability Index, 1990--2011: Using the 2012 UN-CDP definitions.'' Ferdi Working Paper I17, Innovative Indicator Series.}
+
+\cvpub{\textbf{Cariolle, J.} (2012). ``Measuring Macroeconomic Instability: Applications to Export Revenue Data, 1970--2005.'' Ferdi Working Paper I14.}
+
+\cvpub{\textbf{Cariolle, J.} (2011). ``The Economic Vulnerability Index: 2010 Update.'' Ferdi Working Paper I09.}
+
+% ── WORK IN PROGRESS ──────────────────────────────────────────────────────
+\section{Work in Progress}
+
+\begin{itemize}
+  \item Ameye, H., Cariolle, J. \& Carroll~II, A.D. --- ``Digitalisation and nutrition security in the WAEMU.''
+  \item Cariolle, J. \& Carroll~II, A.D. --- ``Mobile connectivity, labor market and farm productivity in rural West Africa.''
+\end{itemize}
+
+% ── AWARD ─────────────────────────────────────────────────────────────────
+\section{Award}
+
+\cvitem{2019}{\textbf{Elinor Ostr\"{o}m Prize} --- best full-length article published in the \textit{Journal of Institutional Economics} in 2019, awarded with Elise S. Brezis.}
+
+% ── VISITING ──────────────────────────────────────────────────────────────
+\section{Visiting Positions}
+
+\cvitem{2022}{Visiting researcher, University Aix-Marseille (AMSE), Marseille, France.}
+\cvitem{2018}{Visiting researcher, Bar-Ilan University, Tel-Aviv, Isra\"{e}l. (August)}
+
+% ── SUPERVISION ───────────────────────────────────────────────────────────
+\section{Research Supervision}
+
+\noindent\textbf{Post-doctoral supervision}
+
+\cvitem{2026--}{Balasubramanyam Pattath, Geneva Graduate Institute and Global Development Network.}
+
+\noindent\textbf{PhD supervision}
+
+\cvitem{2022--23}{Yasmine El-Khateeb, University Paris~1 --- Defended. Economist at J-PAL Egypt.}
+
+\noindent\textbf{PhD defense committees}
+
+\cvitem{2024}{Jean-Baptiste Guiffard, University Paris~1 Panth\'{e}on-Sorbonne.}
+\cvitem{2023}{Damien Girollet, Bordeaux School of Economics.}
+\cvitem{2022}{Quoc Thang Nguyen, University Paris-Dauphine.}
+
+% ── POLICY ────────────────────────────────────────────────────────────────
+\section{Policy Briefs (Selected)}
+
+\cvpub{\textbf{Cariolle, J.} (2024). ``Mobile Connectivity: A Vector for Rural Transformations in the WAEMU?'' FERDI Policy Brief B273.}
+
+\cvpub{\textbf{Cariolle, J., Elkhateeb, Y., \& Maurel, M.} (2023). ``(Mis-)information technology: Internet use and perception of democracy in Africa.'' Ferdi Policy Brief B258.}
+
+\cvpub{\textbf{Cariolle, J. \& Leon, F.} (2022). ``How internet helped firms cope with COVID-19.'' Ferdi Policy Brief B230.}
+
+\cvpub{\textbf{Brezis, E.S. \& Cariolle, J.} (2014). ``Sizing Up the Distortive Power of the Revolving Door.'' U4 Brief, U4 Anti-Corruption Center, Bergen.}
+
+% ── DATABASES ─────────────────────────────────────────────────────────────
+\section{Databases}
+
+\begin{itemize}
+  \item Submarine cable network dataset.
+  \item Economic Vulnerability Index, retrospective series (UN-CDP 2012 design), endorsed by the UN-CDP.
+  \item Build Your Own Economic Vulnerability Index website: \href{http://byind.ferdi.fr/}{byind.ferdi.fr}.
+  \item State Commitment to Trade Integration Index.
+\end{itemize}
+
+% ── REFEREEING ────────────────────────────────────────────────────────────
+\section{Refereeing Activity}
+
+\noindent Journal of Development Economics \textbullet\ American Journal of Agricultural Economics \textbullet\ Plos One \textbullet\ Public Administration Review \textbullet\ Technological Forecasting and Social Change \textbullet\ Information Economics and Policy \textbullet\ Telematics \& Informatics \textbullet\ Journal of African Economies \textbullet\ Journal of Economic Surveys \textbullet\ Journal of Development Studies \textbullet\ International Review of Economics and Finance \textbullet\ Oxford Development Studies \textbullet\ African Development Review \textbullet\ Baltic Journal of Economics \textbullet\ Economics Bulletin \textbullet\ Revue \'{E}conomique \textbullet\ Revue d'\'{E}conomie du D\'{e}veloppement.
+
+% ── OUTREACH ──────────────────────────────────────────────────────────────
+\section{Selected Invited Talks \& Events}
+
+\noindent\textbf{Invited Keynotes / Panels}
+
+\cvitem{2025}{IDOS-EUI Workshop on Digital Trade Research Agenda, European University Institute, Florence; GDN Roundtable at Clermont Innovation Week; Council on Economic Policies Webinar.}
+
+\cvitem{2024}{World Bank-IFC Flagship Conference on Digitalisation and Development, Sciences-Po Paris.}
+
+\cvitem{2023}{Organisation internationale de la Francophonie, Executive Working Group on Digital Governance, Geneva; UN LDC5 Conference, Doha; UNCTAD E-Commerce Week, Geneva.}
+
+\noindent\textbf{Research Seminars}
+
+\cvitem{2025}{Centre d'\'{E}conomie de la Sorbonne (Paris~1); CERDI-UCA; Bordeaux School of Economics.}
+\cvitem{2024}{US Federal Communications Commission (Washington DC); DIAL-IRD (Paris-Dauphine); Banque de France--FERDI Research Seminar; CERDI-UCA.}
+\cvitem{2019}{Center for Global Development (London); Bordeaux School of Economics.}
+
+\noindent\textbf{Academic Conferences (selected)}
+
+\cvitem{2025}{CEPR/Kiel African Economic Development Conference (Berlin); CSAE Annual Conference (Oxford); LAGV (AMSE, Marseille).}
+\cvitem{2024}{AFEDEV/ICDE, AMSE (Marseille); LAGV.}
+\cvitem{2023}{CSAE (Oxford); SAGE Annual Conference.}
+\cvitem{2019}{Royal Economic Society (Warwick); INFER Annual Conference (Brussels); DIAL-IRD (Paris).}
+\cvitem{2018}{DEGIT Conference (Moscow); CESifo Economics of Digitization (Munich).}
+
+\vspace{20pt}
+\begin{center}
+  \small\textcolor{lightgray}{\textit{Last updated: April 2026}}
+\end{center}
+
+\end{document}
