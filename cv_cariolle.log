@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  11 MAY 2026 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  4 JUN 2026 14:53
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./cv_cariolle.tex
-(cv_cariolle.tex
+**"c:/Users/jocariol/Documents/Recherche perso/website/cv_cariolle.tex"
+(c:/Users/jocariol/Documents/Recherche perso/website/cv_cariolle.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -22,16 +23,13 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -65,17 +63,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
-sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count283
 )
@@ -91,29 +84,22 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count285
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-
-pdftex.def
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip51
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
-cfg
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
  (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count286
@@ -128,26 +114,15 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks22
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
-g))
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
-sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
-y
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
-sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)))
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
-y
+))) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip52
 \enit@outerparindent=\dimen160
@@ -164,9 +139,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip53
 \backup@length=\skip54
 \ar@cellbox=\box56
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen163
 \lightrulewidth=\dimen164
@@ -187,19 +160,13 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen175
 ) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
-tx)
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -209,8 +176,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen176
 \TX@old@table=\dimen177
@@ -219,9 +185,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen180
 \TX@cols=\count295
 \TX@ftn=\toks25
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip55
 \RaggedLeftLeftskip=\skip56
@@ -237,69 +201,45 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip66
 \RaggedRightParindent=\skip67
 \JustifyingParindent=\skip68
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
-inekeys.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
-e.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
-r.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
-y
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
-titlestring.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count296
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringen
-c.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen181
 \Hy@linkcounter=\count297
 \Hy@pagecounter=\count298
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count299
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -312,21 +252,16 @@ Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count300
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen182
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
-alc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count301
 \Field@Width=\dimen183
@@ -343,27 +278,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \c@Hfootnote=\count304
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count305
 \c@bookmark@seq@number=\count306
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
-filecheck.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
-uecounter.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip69
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box57
 \beforetitleunit=\skip70
@@ -374,11 +301,8 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen187
 \titlewidthlast=\dimen188
 \titlewidthfirst=\dimen189
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip72
 \f@nch@offset@elh=\skip73
 \f@nch@offset@erh=\skip74
@@ -394,43 +318,28 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip84
 \f@nch@widthR=\skip85
 \@temptokenb=\toks27
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.
-sty
-Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
-MM)
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemod
-ern.sty
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count307
 ) 
-))
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
-y
+)) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\mdwlist.sty
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\mdwlist.sty
 Package: mdwlist 1996/05/02 1.1 Various list-related things
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.st
-y
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language79
 LaTeX Info: Redefining \_ on input line 43.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 44.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 81
-.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 81.
  (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
+) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
 ) (cv_cariolle.aux)
@@ -474,10 +383,8 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
 (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -513,9 +420,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
+(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
 \scratchdimen=\dimen190
@@ -534,11 +439,7 @@ Package hyperref Info: Link coloring ON on input line 81.
 \@outlinefile=\write3
 \openout3 = `cv_cariolle.out'.
 
-
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd)
-(C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
+ (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -575,8 +476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
 
 Underfull \hbox (badness 2460) in paragraph at lines 137--137
-[]|\T1/lmr/bx/n/10.95 (+20) Ph.D. in Eco-nomics\T1/lmr/m/n/10.95 (+20) , CERDI 
--- Uni-ver-sity Clermont-Auvergne, 
+[]|\T1/lmr/bx/n/10.95 (+20) Ph.D. in Eco-nomics\T1/lmr/m/n/10.95 (+20) , CERDI -- Uni-ver-sity Clermont-Auvergne, 
  []
 
 
@@ -596,8 +496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
 [1
 
-{C:/Users/jocariol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/j
-ocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+{C:/Users/jocariol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
@@ -614,8 +513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
 
 Underfull \hbox (badness 1540) in paragraph at lines 265--265
-[]|\T1/lmr/m/n/10.95 (+20) Balasubramanyam Pat-tath, Geneva Grad-u-ate In-sti-t
-ute and Global 
+[]|\T1/lmr/m/n/10.95 (+20) Balasubramanyam Pat-tath, Geneva Grad-u-ate In-sti-tute and Global 
  []
 
 
@@ -633,13 +531,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--276
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-81.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 281.
 (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-[5{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.en
-c}]
+) [5{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
@@ -675,20 +570,15 @@ Package rerunfilecheck Info: File `cv_cariolle.out' has not changed.
 (rerunfilecheck)             Checksum: 2FED9572DA40C73DB27BFE7E144961EA;1976.
  ) 
 Here is how much of TeX's memory you used:
- 12999 strings out of 467691
- 210271 string characters out of 5413535
+ 13001 strings out of 467691
+ 210431 string characters out of 5413535
  684525 words of memory out of 5000000
  41722 multiletter control sequences out of 15000+600000
  684195 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,79p,1202b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10
-.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmb
-x12.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmr10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmri10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/lm/lmri12.pfb>
-Output written on cv_cariolle.pdf (6 pages, 175793 bytes).
+ 69i,11n,79p,1254b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+Output written on cv_cariolle.pdf (6 pages, 175860 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
