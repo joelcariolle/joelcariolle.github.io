@@ -57,7 +57,7 @@
   {}
   [\vspace{-4pt}\color{gold}\rule{\linewidth}{0.8pt}\vspace{2pt}]
 
-\titlespacing{\section}{0pt}{18pt}{8pt}
+\titlespacing{\section}{0pt}{20pt}{8pt}
 
 % ── CUSTOM ENVIRONMENTS ───────────────────────────────────────────────────
 % Two-column entry: date | content  (tabularx so right col fills \textwidth)
@@ -66,13 +66,13 @@
 }{\endtabularx}
 
 % Compact list
-\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=3pt}
+\setlist[itemize]{leftmargin=1.2em, itemsep=-2pt, parsep=0pt, topsep=0pt, partopsep=0pt}
 
 % ── HELPER COMMANDS ───────────────────────────────────────────────────────
 \newcommand{\cvitem}[2]{%
   \begin{cvtable}
     \textcolor{gold}{\small #1} & #2 \\
-  \end{cvtable}\vspace{3pt}
+  \end{cvtable}\par\vspace{-\parskip}\vspace{1pt}
 }
 
 \newcommand{\cvpub}[1]{\noindent\hangindent=0.5em\hangafter=1 #1\par\vspace{5pt}}
@@ -87,13 +87,13 @@
   {\large\itshape\color{midgray} Development Economist --- Digitalisation \& Development}\\[6pt]
   \textcolor{gold}{\rule{0.5\linewidth}{0.6pt}}\\[6pt]
   \small
-  \textcolor{lightgray}{Ph.D.\ in Economics \quad|\quad Habilitation \`{a} Diriger la Recherche (HDR, 2025)}\\[4pt]
+  \textcolor{lightgray}{Ph.D.\ in Economics \quad|\quad Habilitation \`{a} Diriger la Recherche (HDR)}\\[4pt]
   Research Officer, \textbf{FERDI} \quad|\quad Affiliate Researcher, \textbf{CERDI}--University Clermont-Auvergne\\[3pt]
   \href{mailto:joel.cariolle@ferdi.fr}{joel.cariolle@ferdi.fr}
   \quad|\quad
-  \href{https://sites.google.com/view/joelcariolle}{sites.google.com/view/joelcariolle}
+  \href{https://sites.google.com/view/joelcariolle}{Personal webpage}
   \quad|\quad
-  \href{https://twitter.com/jcariolle}{@jcariolle}
+  \href{https://bsky.app/profile/joelcariolle.bsky.social}{@jcariolle}
 \end{center}
 
 \vspace{6pt}
@@ -102,7 +102,8 @@
 \section{Research Fields}
 
 \noindent\textbf{Primary:} Development Economics, Digital Economics, International Economics.\\
-\textbf{Topics:} Digital infrastructure, submarine cables, ICT and firm performance, political economy of corruption, economic vulnerability, regional integration in Sub-Saharan Africa.
+\medskip
+\textbf{Topics:} Digital infrastructures, Trade, Agriculture, Sub-Saharan Africa.
 
 % ── PROFESSIONAL BACKGROUND ───────────────────────────────────────────────
 \section{Professional Background}
@@ -114,34 +115,34 @@
 
 \cvitem{2023--present}{%
   \textbf{Affiliate Researcher, CERDI} -- University Clermont-Auvergne, France.}
-
+\medskip
 \cvitem{2021--2022}{%
-  Short-Term Consultant, \textbf{World Bank \& IFC}.}
+  Short-Term Consultant, World Bank \& IFC.}
 
 \cvitem{2009--2010}{%
-  Anti-corruption expert and trainer, \textbf{European Commission}.}
+  Anti-corruption expert and trainer, European Commission.}
 
 \cvitem{2008--2013}{%
   Research Assistant, FERDI.}
 
 \medskip
-\noindent\textbf{Teaching}\quad (2014--2024): Microeconomics, economic policy, digital economics --- Paris-Dauphine University; Clermont Graduate School of Management; CERDI-UCA.
+%\noindent\textbf{Teaching}\quad (2014--2024): Microeconomics, economic policy, digital economics --- Paris-Dauphine University; Clermont Graduate School of Management; CERDI-UCA.
 
 % ── EDUCATION ─────────────────────────────────────────────────────────────
 \section{Education}
 
 \cvitem{2025}{\textbf{Habilitation \`{a} Diriger la Recherche (HDR)}.}
 
-\cvitem{2014}{French Qualification for Assistant Professor tenure (\textit{Qualification MCF}), renewed 2019.}
+\cvitem{2014}{\textbf{French Qualification} for Assistant Professor tenure, renewed 2019.}
 
 \cvitem{2013}{\textbf{Ph.D.\ in Economics}, CERDI -- University Clermont-Auvergne, Clermont-Ferrand, France.}
 
-\cvitem{2007}{Master 2 in Development Economics (Research track), CERDI -- UCA.\newline
-  Master 2 in Project Management in Developing Countries (Professional track), CERDI -- UCA.}
+\cvitem{2007}{\textbf{Master 2 in Development Economics} (Research track), CERDI -- UCA.\newline
+  \textbf{Master 2 in Project Management in Developing Countries} (Professional track), CERDI -- UCA.}
 
-\cvitem{2006}{Master 1 in Comparative European and Latin-American Studies, University Sorbonne-Nouvelle (IHEAL, Paris III).}
+\cvitem{2006}{\textbf{Master 1 in Comparative European and Latin-American Studies}, University Sorbonne-Nouvelle (IHEAL, Paris III).}
 
-\cvitem{2005}{Master 1 in International Economics, University Panth\'{e}on-Sorbonne (Paris I).}
+\cvitem{2005}{\textbf{Master 1 in International Economics}, University Panth\'{e}on-Sorbonne (Paris I).}
 
 % ── PEER-REVIEWED PUBLICATIONS ────────────────────────────────────────────
 \section{Peer-Reviewed Publications}
@@ -246,6 +247,8 @@
 
 \cvpub{\textbf{Cariolle, J., Maurel, M., \& Raballand, G.} (2024). ``Strengthening social contracts in Africa: Is social media a blessing or a curse?'' \textit{World Bank Blog}, September 2024.}
 
+\cvpub{\textbf{Brezis, E.S. \& Cariolle, J.} (2021). ``Regulating the revolving door.'' \textit{Cambridge Core Blog}, January~4, 2021. \href{https://www.cambridge.org/core/blog/2021/01/04/regulating-the-revolving-door/}{Link}.}
+
 % ── AWARD ─────────────────────────────────────────────────────────────────
 \section{Award}
 
@@ -287,7 +290,7 @@
 % ── REFEREEING ────────────────────────────────────────────────────────────
 \section{Refereeing Activity}
 
-\noindent Journal of Development Economics \textbullet\ American Journal of Agricultural Economics \textbullet\ Plos One \textbullet\ Public Administration Review \textbullet\ Technological Forecasting and Social Change \textbullet\ Information Economics and Policy \textbullet\ Telematics \& Informatics \textbullet\ Journal of African Economies \textbullet\ Journal of Economic Surveys \textbullet\ Journal of Development Studies \textbullet\ International Review of Economics and Finance \textbullet\ Oxford Development Studies \textbullet\ African Development Review \textbullet\ Baltic Journal of Economics \textbullet\ Economics Bulletin \textbullet\ Revue \'{E}conomique \textbullet\ Revue d'\'{E}conomie du D\'{e}veloppement.
+{\RaggedRight\noindent Journal of Development Economics\hspace{0.3em}\textbullet\hspace{0.3em}American Journal of Agricultural Economics\hspace{0.3em}\textbullet\hspace{0.3em}Plos One\hspace{0.3em}\textbullet\hspace{0.3em}Public Administration Review\hspace{0.3em}\textbullet\hspace{0.3em}Technological Forecasting and Social Change\hspace{0.3em}\textbullet\hspace{0.3em}Information Economics and Policy\hspace{0.3em}\textbullet\hspace{0.3em}Telematics \& Informatics\hspace{0.3em}\textbullet\hspace{0.3em}Journal of African Economies\hspace{0.3em}\textbullet\hspace{0.3em}Journal of Economic Surveys\hspace{0.3em}\textbullet\hspace{0.3em}Journal of Development Studies\hspace{0.3em}\textbullet\hspace{0.3em}International Review of Economics and Finance\hspace{0.3em}\textbullet\hspace{0.3em}Oxford Development Studies\hspace{0.3em}\textbullet\hspace{0.3em}African Development Review\hspace{0.3em}\textbullet\hspace{0.3em}Baltic Journal of Economics\hspace{0.3em}\textbullet\hspace{0.3em}Economics Bulletin\hspace{0.3em}\textbullet\hspace{0.3em}Revue \'{E}conomique\hspace{0.3em}\textbullet\hspace{0.3em}Revue d'\'{E}conomie du D\'{e}veloppement.\par}
 
 % ── OUTREACH ──────────────────────────────────────────────────────────────
 \section{Selected Invited Talks \& Events}

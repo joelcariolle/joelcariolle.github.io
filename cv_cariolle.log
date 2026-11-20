@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  4 JUN 2026 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  20 NOV 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,126 +440,26 @@ Package hyperref Info: Link coloring ON on input line 81.
 \openout3 = `cv_cariolle.out'.
 
  (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd) (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 137--137
+Underfull \hbox (badness 2460) in paragraph at lines 138--138
 []|\T1/lmr/bx/n/10.95 (+20) Ph.D. in Eco-nomics\T1/lmr/m/n/10.95 (+20) , CERDI -- Uni-ver-sity Clermont-Auvergne, 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
+Underfull \hbox (badness 1502) in paragraph at lines 141--141
+\T1/lmr/bx/n/10.95 (+20) Master 2 in Project Man-age-ment in De-vel-op-ing Coun-tries 
  []
 
 [1
 
-{C:/Users/jocariol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-[2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 265--265
+{C:/Users/jocariol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2] [3] [4]
+Underfull \hbox (badness 1540) in paragraph at lines 268--268
 []|\T1/lmr/m/n/10.95 (+20) Balasubramanyam Pat-tath, Geneva Grad-u-ate In-sti-tute and Global 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--276
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 281.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 284.
 (C:\Users\jocariol\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--308
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
-
- []
-
-[6] 
+) [5{C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [6] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (cv_cariolle.aux)
  ***********
@@ -570,17 +470,17 @@ Package rerunfilecheck Info: File `cv_cariolle.out' has not changed.
 (rerunfilecheck)             Checksum: 2FED9572DA40C73DB27BFE7E144961EA;1976.
  ) 
 Here is how much of TeX's memory you used:
- 13001 strings out of 467691
- 210431 string characters out of 5413535
- 684525 words of memory out of 5000000
+ 12995 strings out of 467691
+ 210363 string characters out of 5413535
+ 687587 words of memory out of 5000000
  41722 multiletter control sequences out of 15000+600000
- 684195 words of font info for 141 fonts, out of 8000000 for 9000
+ 683924 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,79p,1254b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,11n,79p,1286b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jocariol/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on cv_cariolle.pdf (6 pages, 175860 bytes).
+Output written on cv_cariolle.pdf (6 pages, 175731 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
  30849 words of extra memory for PDF output out of 35830 (max. 10000000)
 
